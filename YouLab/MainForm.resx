@@ -1,0 +1,1403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="playlistLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="playlistLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 50</value>
+  </data>
+  <data name="playlistLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 25</value>
+  </data>
+  <data name="playlistLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="playlistLabel.Text" xml:space="preserve">
+    <value>Select download type</value>
+  </data>
+  <data name="&gt;&gt;playlistLabel.Name" xml:space="preserve">
+    <value>playlistLabel</value>
+  </data>
+  <data name="&gt;&gt;playlistLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;playlistLabel.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;playlistLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="downloadTypeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="downloadTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 130</value>
+  </data>
+  <data name="downloadTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 25</value>
+  </data>
+  <data name="downloadTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="downloadTypeLabel.Text" xml:space="preserve">
+    <value>Pick media type</value>
+  </data>
+  <data name="&gt;&gt;downloadTypeLabel.Name" xml:space="preserve">
+    <value>downloadTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;downloadTypeLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;downloadTypeLabel.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;downloadTypeLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="audioQualityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="audioQualityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 210</value>
+  </data>
+  <data name="audioQualityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 25</value>
+  </data>
+  <data name="audioQualityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="audioQualityLabel.Text" xml:space="preserve">
+    <value>Adjust audio qulity</value>
+  </data>
+  <data name="&gt;&gt;audioQualityLabel.Name" xml:space="preserve">
+    <value>audioQualityLabel</value>
+  </data>
+  <data name="&gt;&gt;audioQualityLabel.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audioQualityLabel.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audioQualityLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="metroLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 290</value>
+  </data>
+  <data name="metroLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 25</value>
+  </data>
+  <data name="metroLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="metroLabel2.Text" xml:space="preserve">
+    <value>Adjust video qulity</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Name" xml:space="preserve">
+    <value>metroLabel2</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;metroLabel2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="metroLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 450</value>
+  </data>
+  <data name="metroLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 25</value>
+  </data>
+  <data name="metroLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="metroLabel3.Text" xml:space="preserve">
+    <value>Enter URL and GO</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Name" xml:space="preserve">
+    <value>metroLabel3</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;metroLabel3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="metroLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 370</value>
+  </data>
+  <data name="metroLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="metroLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="metroLabel1.Text" xml:space="preserve">
+    <value>Choose save folder</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Name" xml:space="preserve">
+    <value>metroLabel1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;metroLabel1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="playlistButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 50</value>
+  </data>
+  <data name="playlistButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 35</value>
+  </data>
+  <data name="playlistButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="playlistButton.Text" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 14</value>
+  </metadata>
+  <data name="playlistButton.ToolTip" xml:space="preserve">
+    <value>Download up to 100 videos at once</value>
+  </data>
+  <data name="&gt;&gt;playlistButton.Name" xml:space="preserve">
+    <value>playlistButton</value>
+  </data>
+  <data name="&gt;&gt;playlistButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;playlistButton.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;playlistButton.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="signleMediaButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 50</value>
+  </data>
+  <data name="signleMediaButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 35</value>
+  </data>
+  <data name="signleMediaButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="signleMediaButton.Text" xml:space="preserve">
+    <value>Single Media</value>
+  </data>
+  <data name="signleMediaButton.ToolTip" xml:space="preserve">
+    <value>Download single/video file.</value>
+  </data>
+  <data name="&gt;&gt;signleMediaButton.Name" xml:space="preserve">
+    <value>signleMediaButton</value>
+  </data>
+  <data name="&gt;&gt;signleMediaButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;signleMediaButton.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;signleMediaButton.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="audioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 130</value>
+  </data>
+  <data name="audioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 35</value>
+  </data>
+  <data name="audioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="audioButton.Text" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="audioButton.ToolTip" xml:space="preserve">
+    <value>Download audio as MP3.</value>
+  </data>
+  <data name="&gt;&gt;audioButton.Name" xml:space="preserve">
+    <value>audioButton</value>
+  </data>
+  <data name="&gt;&gt;audioButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audioButton.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audioButton.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="videoButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="videoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 130</value>
+  </data>
+  <data name="videoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 35</value>
+  </data>
+  <data name="videoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="videoButton.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="videoButton.ToolTip" xml:space="preserve">
+    <value>Downlaod videos as MP4.</value>
+  </data>
+  <data name="&gt;&gt;videoButton.Name" xml:space="preserve">
+    <value>videoButton</value>
+  </data>
+  <data name="&gt;&gt;videoButton.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroButton, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;videoButton.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;videoButton.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="audio64.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="audio64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 188</value>
+  </data>
+  <data name="audio64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="audio64.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="audio64.Text" xml:space="preserve">
+    <value>64kbps</value>
+  </data>
+  <data name="&gt;&gt;audio64.Name" xml:space="preserve">
+    <value>audio64</value>
+  </data>
+  <data name="&gt;&gt;audio64.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audio64.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audio64.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="audio128.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="audio128.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 187</value>
+  </data>
+  <data name="audio128.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="audio128.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="audio128.Text" xml:space="preserve">
+    <value>128kbps</value>
+  </data>
+  <data name="&gt;&gt;audio128.Name" xml:space="preserve">
+    <value>audio128</value>
+  </data>
+  <data name="&gt;&gt;audio128.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audio128.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audio128.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="audio192.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="audio192.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 187</value>
+  </data>
+  <data name="audio192.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="audio192.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="audio192.Text" xml:space="preserve">
+    <value>192kbps</value>
+  </data>
+  <data name="&gt;&gt;audio192.Name" xml:space="preserve">
+    <value>audio192</value>
+  </data>
+  <data name="&gt;&gt;audio192.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audio192.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audio192.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="audioQulityBar.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="audioQulityBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 210</value>
+  </data>
+  <data name="audioQulityBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 26</value>
+  </data>
+  <data name="audioQulityBar.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="audioQulityBar.Text" xml:space="preserve">
+    <value>metroTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;audioQulityBar.Name" xml:space="preserve">
+    <value>audioQulityBar</value>
+  </data>
+  <data name="&gt;&gt;audioQulityBar.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;audioQulityBar.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;audioQulityBar.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="video360.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="video360.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 265</value>
+  </data>
+  <data name="video360.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="video360.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="video360.Text" xml:space="preserve">
+    <value>360p</value>
+  </data>
+  <data name="&gt;&gt;video360.Name" xml:space="preserve">
+    <value>video360</value>
+  </data>
+  <data name="&gt;&gt;video360.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;video360.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;video360.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="video1080.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="video1080.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 265</value>
+  </data>
+  <data name="video1080.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 19</value>
+  </data>
+  <data name="video1080.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="video1080.Text" xml:space="preserve">
+    <value>1080p</value>
+  </data>
+  <data name="&gt;&gt;video1080.Name" xml:space="preserve">
+    <value>video1080</value>
+  </data>
+  <data name="&gt;&gt;video1080.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;video1080.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;video1080.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="video720.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="video720.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 265</value>
+  </data>
+  <data name="video720.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="video720.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="video720.Text" xml:space="preserve">
+    <value>720p</value>
+  </data>
+  <data name="&gt;&gt;video720.Name" xml:space="preserve">
+    <value>video720</value>
+  </data>
+  <data name="&gt;&gt;video720.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;video720.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;video720.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="video480.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="video480.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 265</value>
+  </data>
+  <data name="video480.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 19</value>
+  </data>
+  <data name="video480.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="video480.Text" xml:space="preserve">
+    <value>480p</value>
+  </data>
+  <data name="&gt;&gt;video480.Name" xml:space="preserve">
+    <value>video480</value>
+  </data>
+  <data name="&gt;&gt;video480.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;video480.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;video480.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="videoQulityBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 290</value>
+  </data>
+  <data name="videoQulityBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 26</value>
+  </data>
+  <data name="videoQulityBar.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="videoQulityBar.Text" xml:space="preserve">
+    <value>metroTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;videoQulityBar.Name" xml:space="preserve">
+    <value>videoQulityBar</value>
+  </data>
+  <data name="&gt;&gt;videoQulityBar.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTrackBar, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;videoQulityBar.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;videoQulityBar.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="resource.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 2</value>
+  </data>
+  <data name="resource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="resource.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="directoryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 370</value>
+  </data>
+  <data name="directoryTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 30</value>
+  </data>
+  <data name="directoryTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;directoryTextBox.Name" xml:space="preserve">
+    <value>directoryTextBox</value>
+  </data>
+  <data name="&gt;&gt;directoryTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;directoryTextBox.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;directoryTextBox.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="resource.Image1" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="resource.ImeMode1" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="resource.Location1" type="System.Drawing.Point, System.Drawing">
+    <value>294, 2</value>
+  </data>
+  <data name="resource.Size1" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="resource.TabIndex1" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="resource.Visible1" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="urlTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 450</value>
+  </data>
+  <data name="urlTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 30</value>
+  </data>
+  <data name="urlTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;urlTextBox.Name" xml:space="preserve">
+    <value>urlTextBox</value>
+  </data>
+  <data name="&gt;&gt;urlTextBox.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTextBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;urlTextBox.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;urlTextBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="pictureBox8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 436</value>
+  </data>
+  <data name="pictureBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Name" xml:space="preserve">
+    <value>pictureBox8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 356</value>
+  </data>
+  <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Name" xml:space="preserve">
+    <value>pictureBox7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 276</value>
+  </data>
+  <data name="pictureBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Name" xml:space="preserve">
+    <value>pictureBox6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 196</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 116</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 36</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 51</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="browseLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 356</value>
+  </data>
+  <data name="browseLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 54</value>
+  </data>
+  <data name="browseLink.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;browseLink.Name" xml:space="preserve">
+    <value>browseLink</value>
+  </data>
+  <data name="&gt;&gt;browseLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;browseLink.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;browseLink.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="downloadLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 432</value>
+  </data>
+  <data name="downloadLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 63</value>
+  </data>
+  <data name="downloadLink.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;downloadLink.Name" xml:space="preserve">
+    <value>downloadLink</value>
+  </data>
+  <data name="&gt;&gt;downloadLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;downloadLink.Parent" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;downloadLink.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mainTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mainTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 502</value>
+  </data>
+  <data name="mainTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mainTab.Text" xml:space="preserve">
+    <value>Download Form</value>
+  </data>
+  <data name="&gt;&gt;mainTab.Name" xml:space="preserve">
+    <value>mainTab</value>
+  </data>
+  <data name="&gt;&gt;mainTab.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mainTab.Parent" xml:space="preserve">
+    <value>tabs</value>
+  </data>
+  <data name="&gt;&gt;mainTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="metroLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 204</value>
+  </data>
+  <data name="metroLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 175</value>
+  </data>
+  <data name="metroLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="metroLabel5.Text" xml:space="preserve">
+    <value>Description:
+
+Free open source program that allow you to download 
+videos and entire playlists from YouTube and save them 
+on your PC as audio or a video format.
+
+Feel free to report any bug you find.</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Name" xml:space="preserve">
+    <value>metroLabel5</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="metroLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="metroLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 16</value>
+  </data>
+  <data name="metroLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 125</value>
+  </data>
+  <data name="metroLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="metroLabel4.Text" xml:space="preserve">
+    <value>Product Name: YouLab
+
+Version: 1.0.0
+
+Copyright: © Mario Zisov 2016</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Name" xml:space="preserve">
+    <value>metroLabel4</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLabel, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;metroLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 31</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 394</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>aboutTab</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="githubLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 347</value>
+  </data>
+  <data name="githubLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 78</value>
+  </data>
+  <data name="githubLink.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="githubLink.ToolTip" xml:space="preserve">
+    <value>Click to open GitHub repository.</value>
+  </data>
+  <data name="&gt;&gt;githubLink.Name" xml:space="preserve">
+    <value>githubLink</value>
+  </data>
+  <data name="&gt;&gt;githubLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;githubLink.Parent" xml:space="preserve">
+    <value>aboutTab</value>
+  </data>
+  <data name="&gt;&gt;githubLink.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gmailLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 235</value>
+  </data>
+  <data name="gmailLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 64</value>
+  </data>
+  <data name="gmailLink.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gmailLink.ToolTip" xml:space="preserve">
+    <value>Click to copy email adress.</value>
+  </data>
+  <data name="&gt;&gt;gmailLink.Name" xml:space="preserve">
+    <value>gmailLink</value>
+  </data>
+  <data name="&gt;&gt;gmailLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;gmailLink.Parent" xml:space="preserve">
+    <value>aboutTab</value>
+  </data>
+  <data name="&gt;&gt;gmailLink.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 164</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>aboutTab</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="aboutTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="aboutTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>689, 502</value>
+  </data>
+  <data name="aboutTab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="aboutTab.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;aboutTab.Name" xml:space="preserve">
+    <value>aboutTab</value>
+  </data>
+  <data name="&gt;&gt;aboutTab.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;aboutTab.Parent" xml:space="preserve">
+    <value>tabs</value>
+  </data>
+  <data name="&gt;&gt;aboutTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 74</value>
+  </data>
+  <data name="tabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 544</value>
+  </data>
+  <data name="tabs.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tabs.Name" xml:space="preserve">
+    <value>tabs</value>
+  </data>
+  <data name="&gt;&gt;tabs.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;tabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabs.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="minimizeLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 24</value>
+  </data>
+  <data name="minimizeLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 44</value>
+  </data>
+  <data name="minimizeLink.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;minimizeLink.Name" xml:space="preserve">
+    <value>minimizeLink</value>
+  </data>
+  <data name="&gt;&gt;minimizeLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;minimizeLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;minimizeLink.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="closeLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 24</value>
+  </data>
+  <data name="closeLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 44</value>
+  </data>
+  <data name="closeLink.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;closeLink.Name" xml:space="preserve">
+    <value>closeLink</value>
+  </data>
+  <data name="&gt;&gt;closeLink.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;closeLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;closeLink.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>764, 636</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEAAlmxAAxZsQAZWbEAJVmxACVZsQAlWbEAJVmx
+        ACBZsQAVWbEABlmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEACVmxAChZsQBLWbEAb1mxAIxZsQCoWbEAwVmx
+        AMFZsQDBWbEAwVmxALZZsQCeWbEAfVmxAFtZsQA7WbEAFFmxAABZsQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEAAFmxAA1ZsQBNWbEAilmxAMBZsQDrWbEA/lmx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAPdZsQDWWbEAplmxAGxZsQAsWbEAA1mx
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmxAABZsQAHWbEAVVmxAKlZsQDhWbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        APNZsQDHWbEAgFmxACdZsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEAAFmxAC5ZsQCdWbEA5Fmx
+        AP5ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA91mxAMdZsQBhWbEADFmxAABZsQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmxAABZsQADWbEASFmx
+        AMdZsQD9WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP5ZsQDtWbEAlFmxACFZsQAAWbEAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEAAFmx
+        AApZsQBjWbEA3lmxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/Vmx
+        ALRZsQAyWbEAAlmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmx
+        AABZsQAAWbEAEFmxAHtZsQDvWbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQDCWbEAOFmxAAJZsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFmxAABZsQAJWbEAfFmxAPNZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD+WbEAwVmxADBZsQABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmxAANZsQBiWbEA7VmxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/FmxAK5ZsQAbWbEAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmxADpZsQDVWbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9XsAD/V7AA/1ixAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        APdZsQCKWbEABlmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEAD1mxAKtZsQD9WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/V7AB/1ixB/9jthH/YrUQ/1ixB/9VrwH/WLAA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQDiWbEAT1mxAABZsQAAAAAAAAAAAAAAAAAAAAAAAFmxAABZsQAAWbEAZ1mx
+        AOxZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9XsAH/bbol/7fdk//d78r/3O7J/7zfmv9/wz//WbEM/1aw
+        Af9YsAD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEAs1mxABpZsQAAAAAAAAAAAAAAAAAAAAAAAFmx
+        AABZsQAeWbEAu1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1ixAP9cswr/wOKh//r9+P////////////3+
+        +//u9+X/tNyO/3W+MP9YsQr/Va8A/1iwAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA7lmxAGRZsQAAWbEAAAAA
+        AAAAAAAAWbEAAFmxAABZsQBkWbEA71mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9uuyX/6PTd////
+        /////////////////////////f79/+Xy1/+l1Hf/broo/1WvBP9VrwD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AKxZsQAaWbEAAAAAAAAAAAAAWbEAAFmxABJZsQCiWbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1Wv
+        AP9zvSz/7fbj///////////////////////////////////////7/fn/1uzC/5jPZ/9ltxv/U64A/1aw
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAOdZsQBJWbEAAFmxAAAAAAAAWbEAAFmxAD1ZsQDZWbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1WvAP9zvCv/7Pbj//////////////////////////////////////////////////X6
+        7//K5q7/ishS/1uyCf9TrwD/WLEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQCBWbEACFmxAABZsQAAWbEAAFmxAGNZsQD+WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////////////////////
+        /v//////////////////////6/bh/7rfmP94vzX/Va8C/1awAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQC1WbEAH1mxAABZsQAAWbEADVmx
+        AI1ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////
+        //////////////7+/f////////////////////////////z9+v/k8tb/ptV5/2a3HP9UrwL/WLAA/1ix
+        AP9YsQD/WLEA/1mxAP9XsAH/Va8E/1iwAv9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQDkWbEANVmx
+        AABZsQAAWbEAHlmxALJZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////
+        //////////////////////////////7+/f//////////////////////////////////////+Pz0/9Xr
+        wP+LyFH/XLMP/1WvBf9WrwX/Vq8F/1OuAv9wuyv/o9R1/3W+Lf9UrwD/VrAA/1iwAP9ZsQD/WbEA/1mx
+        AP9ZsQD+WbEASlmxAABZsQAAWbEAKlmxAM5ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1Wv
+        AP9zvCv/7Pbj////////////////////////////////////////////////////////////////////
+        //////////////7//v/z+ez/wOGf/5vQaP+Zz2b/mc9n/5jOZP++4J3/+fz2/57Scf9bshL/arki/2W3
+        Fv9YsQH/WbEA/1mxAP9ZsQD/WbEAaFmxAAVZsQAAWbEAM1mxAOJZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////////////////////////////////////
+        ///////////////////////////////////////////+//7//v/+//7//v/+//7//v///////v79/8zn
+        s/+63pf/2u3H/5fOZv9UrwP/WbEA/1mxAP9ZsQD/WbEAflmxAAtZsQAAWbEAOFmxAOtZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////+vz3/57Rcf9UrgP/WbEA/1mxAP9ZsQD/WbEAiVmxAA1ZsQAAWbEAOlmx
+        AO9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////+vz3/57RcP9UrgP/WbEA/1mxAP9ZsQD/WbEAjlmx
+        AA9ZsQAAWbEANlmxAOhZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////+vz3/57RcP9UrgP/WbEA/1mx
+        AP9ZsQD/WbEAhlmxAA1ZsQAAWbEAMVmxAN1ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1Wv
+        AP9zvCv/7Pbj////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////7+/f/+//7/+vz3/57R
+        cP9UrgP/WbEA/1mxAP9ZsQD/WbEAeVmxAAlZsQAAWbEAJ1mxAMdZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////////////////////////////////////
+        /////////////////////////////////////////f79//v9+f/6/fj/+v34//r9+P/8/vv//v/+/93v
+        zP/Y7MT/6vXg/5vQav9UrgP/WbEA/1mxAP9ZsQD/WbEAYFmxAANZsQAAWbEAGVmxAKhZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////////////////////
+        //////////////////////////////////////7////////////1+u//z+m3/7Lbjv+w2oz/sdqM/6/Z
+        i//O6Lf//P36/57RcP9gtBD/e8E5/2+7Jv9XsAH/WbEA/1mxAP9ZsQD5WbEAQ1mxAABZsQAAWbEAB1mx
+        AIBZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////////////////////
+        /////////////////////////////////////////v/+////////////+/35/9vuyP+d0W3/Y7UV/1Ou
+        AP9UrgD/VK4A/1GtAP92vzL/tt2R/33CO/9VrwD/VK8A/1ewAP9ZsQD/WbEA/1mxAP9ZsQDXWbEALlmx
+        AABZsQAAWbEAAFmxAFZZsQD2WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvCv/7Pbj////
+        ///////////////////////////////////////////////////+//7//v/+//7//v/o9Nz/stuM/3O9
+        MP9UrwD/Vq8A/1mxAP9ZsQD/WbEA/1mxAP9YsQH/WLED/1iwAf9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQClWbEAGFmxAAAAAAAAWbEAAFmxADFZsQDJWbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1Wv
+        AP9zvCv/7Pbj/////////////////////////////////////////////v/+//7//v//////9Prv/8Pi
+        pP+CxUf/WrIL/1OuAP9YsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WLAA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQBvWbEAAlmxAAAAAAAAWbEAAFmxAAdZsQCRWbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1WvAP9zvSv/7Pbj//////////////////////////////////////////////////v9
+        +f/V67//kcxb/2K1GP9TrwH/V7AA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxANdZsQA8WbEAAAAAAAAAAAAAWbEAAFmxAABZsQBPWbEA4Vmx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9zvSz/7Pbj////////////////////////////////////
+        ///8/vv/5vPa/6TUdv9quCL/VrAE/1awAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAJJZsQALWbEAAAAAAAAAAAAAAAAAAFmx
+        AABZsQANWbEAplmxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1WvAP9vvCf/6vXf////////////////////
+        /////////f78/+735f+43ZX/dL0w/1ewBv9WsAD/WLEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA1lmxAEBZsQAAWbEAAAAA
+        AAAAAAAAAAAAAFmxAABZsQAAWbEASVmxAN9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1iwAP9ftA7/yOWr//3+
+        /P///////////////v/w+Oj/xuSp/4LERP9YsQf/VrAB/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD6WbEAjVmx
+        AANZsQAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEABFmxAItZsQD3WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9WsAH/eb83/8bkqf/d78v/3e/L/8nlrf+Ry1v/XrQO/1OvAP9YsAD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQDNWbEAMFmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmxACFZsQC5WbEA/Vmx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/Va8B/2C0Ef9yvS//cbwu/2G1Ev9UrgD/V7AA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAO5ZsQBkWbEAAFmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmx
+        AAFZsQA8WbEA1lmxAP5ZsQD/WbEA/1mxAP9ZsQD/WbEA/1awAP9TrgD/U64A/1awAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA+VmxAIdZsQALWbEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAFmxAABZsQAEWbEAUlmxAN9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD7WbEAmFmxABhZsQAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQAAWbEABFmxAE9ZsQDTWbEA/lmxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAPlZsQCXWbEAHFmxAABZsQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmxAAJZsQA5WbEAulmx
+        APtZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA7lmxAIdZsQAXWbEAAFmx
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFmx
+        AABZsQAAWbEAKFmxAJ9ZsQDvWbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAPtZsQDRWbEAZFmx
+        AApZsQAAWbEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmxABJZsQBrWbEAxVmxAPdZsQD/WbEA/1mxAP9ZsQD/WbEA/1mx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD+WbEA4Fmx
+        AJtZsQA3WbEAAFmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZsQABWbEALFmxAHVZsQC+WbEA8Fmx
+        AP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/lmx
+        ANtZsQCcWbEAT1mxAAxZsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmx
+        AARZsQAnWbEAV1mxAJBZsQDFWbEA8VmxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/1mxAP9ZsQD/WbEA/Fmx
+        AN5ZsQCrWbEAclmxAD5ZsQAPWbEAAFmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABZsQAAWbEAAFmxAA5ZsQAnWbEAO1mxAFdZsQB1WbEAi1mxAItZsQCLWbEAi1mx
+        AIZZsQBnWbEAR1mxADJZsQAaWbEABlmxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWbEAAFmxAAFZsQAIWbEADlmx
+        AA5ZsQAOWbEADlmxAA1ZsQAFWbEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///////8AAP//4Af//wAA//8AAP//
+        AAD//AAAH/8AAP/wAAAP/wAA/+AAAAP/AAD/gAAAAf8AAP8AAAAAfwAA/gAAAAA/AAD8AAAAAB8AAPgA
+        AAAAHwAA+AAAAAAPAADwAAAAAA8AAPAAAAAABwAA4AAAAAAHAADgAAAAAAMAAMAAAAAAAwAAwAAAAAAB
+        AADAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAA
+        AAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAQAAgAAAAAABAADAAAAAAAEAAMAAAAAAAQAAwAAAAAAD
+        AADgAAAAAAMAAOAAAAAABwAA8AAAAAAHAADwAAAAAA8AAPgAAAAAHwAA+AAAAAAfAAD8AAAAAD8AAP4A
+        AAAAfwAA/wAAAAD/AAD/wAAAAf8AAP/gAAAH/wAA//AAAA//AAD//AAAP/8AAP//gAD//wAA///wD///
+        AAA=
+</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 286</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>YouLab</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;metroToolTip1.Name" xml:space="preserve">
+    <value>metroToolTip1</value>
+  </data>
+  <data name="&gt;&gt;metroToolTip1.Type" xml:space="preserve">
+    <value>MetroFramework.Components.MetroToolTip, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MetroFramework.Forms.MetroForm, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+</root>
