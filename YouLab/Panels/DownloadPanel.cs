@@ -9,7 +9,6 @@ namespace YouLab.Panels
 {
     public partial class DownloadPanel : MetroUserControl
     {
-        private Form mainForm;
         private bool loaded;
 
         public event EventHandler Shown;
@@ -26,12 +25,14 @@ namespace YouLab.Panels
         {
             this.Visible = false;
 
-            this.mainForm = mainForm;
-            this.mainForm.Controls.Add(this);
+            this.MainForm = mainForm;
+            this.MainForm.Controls.Add(this);
             this.BringToFront();
 
             ResizePanel();
         }
+
+        public Form MainForm { get; set; }
 
         public bool CancelDownload { get; set; }
 
@@ -53,9 +54,9 @@ namespace YouLab.Panels
 
         private void ResizePanel()
         {
-            this.Width = this.mainForm.Width;
-            this.Height = this.mainForm.Height;
-            this.Location = new Point(this.loaded ? 0 : this.mainForm.Width, 125);
+            this.Width = this.MainForm.Width;
+            this.Height = this.MainForm.Height;
+            this.Location = new Point(this.loaded ? 0 : this.MainForm.Width, 125);
         }
         
         public void Swipe(bool show = true)
@@ -63,7 +64,7 @@ namespace YouLab.Panels
            
             this.Visible = true;
             Transition transition = new Transition(new TransitionType_Acceleration(1000));
-            transition.add(this, "Left", show ? 0 : this.mainForm.Width);
+            transition.add(this, "Left", show ? 0 : this.MainForm.Width);
             transition.run();
 
             while (this.Left != (show ? 0 : this.Width))
@@ -74,7 +75,7 @@ namespace YouLab.Panels
             if (!show)
             {
                 closed(new EventArgs());
-                this.mainForm.Controls.Remove(this);
+                this.MainForm.Controls.Remove(this);
                 this.Dispose();
             }
             else

@@ -41,9 +41,9 @@ namespace YouLab.Downloaders
             this.secondaryVideo = secondaryVideo;
             this.downloadPanel = downloadPanel;
             this.dirToSave = dirToSave;
-            this.title = this.primeryVideo.Title;
             this.audioQulity = audioQulity;
             this.regex = new Regex(Constants.TitlePattern);
+            this.Title = this.primeryVideo.Title;
             this.fileFormat = fileFormat;
             this.fileNameModifier = FileModifierStartValue;
         }
@@ -78,6 +78,8 @@ namespace YouLab.Downloaders
 
         protected void SetUniqueTitle()
         {
+
+
             string tempTitle = this.Title;
             string path = Path.Combine(this.DirToSave + "\\", tempTitle + this.fileFormat);         
 

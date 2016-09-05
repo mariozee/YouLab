@@ -263,12 +263,13 @@ namespace YouLab
                     if (!this.downloadPanel.CancelDownload)
                     {
                         this.downloadPanel.StatusLabel.Text = GlobalMessages.DownloadFinishAudioStatusText;
+                        this.downloadPanel.MainForm.WindowState = FormWindowState.Normal;
                         MetroMessageBox.Show(this.downloadPanel
                             , string.Empty
                             , GlobalMessages.DownloadFinishMessage
                             , MessageBoxButtons.OK
                             , MessageBoxIcon.Information
-                            , 80);
+                            , 80);                     
 
                         this.downloadPanel.BackLink.Enabled = true;
                     }
